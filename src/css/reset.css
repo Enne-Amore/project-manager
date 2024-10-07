@@ -8,6 +8,7 @@
 body {
     width: 100%;
     height: auto;
+    color: var(--wine);
     font-family: Roboto, sans-serif;
     animation: loadPage .5s ease-out;
 }
