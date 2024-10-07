@@ -15,6 +15,7 @@ body {
 
 a {
     text-decoration: none;
+    text-transform: capitalize;
     color: white;
     transition: .2s;
 }
