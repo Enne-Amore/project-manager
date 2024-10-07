@@ -1,0 +1,20 @@
+/* Variables */
+:root {
+    --weak-black: #030000;
+    --wine: #331436;
+    --red: #cc4f57;
+    --dark-red: #7a1745;
+    --yellow: #fcf5b5;
+}
+
+/* Animations */
+@keyframes loadPage {
+    0% {
+        transform: translateX(-5px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0px);
+        opacity: 1;
+    }
+}
