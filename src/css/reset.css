@@ -1,0 +1,30 @@
+/* Reset Tags */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: auto;
+    font-family: Roboto, sans-serif;
+    animation: loadPage .5s ease-out;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    transition: .2s;
+}
+
+button {
+    border: 0;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
