@@ -47,6 +47,7 @@
 
 #header .btn {
     background-color: var(--red);
+    color: var(--yellow);
     padding: 16px 100px;
     border-radius: 8px;
     font-size: 16px;
