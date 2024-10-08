@@ -242,12 +242,3 @@
 #main #subscribe .form .btn:active {
     background-color: var(--dark-red);
 }
-
-
-:root {
-    --weak-black: #030000;
-    --wine: #331436;
-    --red: #cc4f57;
-    --dark-red: #7a1745;
-    --yellow: #fcf5b5;
-}

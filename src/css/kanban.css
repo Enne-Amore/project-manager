@@ -1,0 +1,120 @@
+/* Header */
+#header .nav,
+#header .nav .list-menu {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+#header .nav .list-menu a {
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+}
+#header .nav .list-menu a:hover,
+#header .nav .list-menu a:focus-visible {
+    color: var(--yellow);
+}
+
+#header .nav .search {
+    position: relative;
+}
+
+#header .nav .search input {
+    background-color: transparent;
+    color: rgba(255, 255, 255, 0.50);
+    font-size: 14px;
+    font-weight: 400;
+    padding: 10px 8px;
+    border-radius: 6px;
+    border: 1px solid rgba(255, 255, 255, 0.10);
+}
+
+#header .nav .search .icon {
+    position: absolute;
+    top: calc(100% - 30px);
+    right: 8px;
+    width: 20px;
+}
+
+/* Main */
+#main {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    background: rgba(0, 0, 0, 0.10);
+    padding: 60px 170px 280px;
+}
+
+#main .table {
+    display: flex;
+    width: 240px;
+    min-height: 70vh;
+    padding: 16px;
+    flex-direction: column;
+    gap: 10px;
+    background-color: white;
+    border-radius: 8px;
+}
+
+#main .card {
+    display: flex;
+    width: 200px;
+    padding: 14px 10px;
+    flex-direction: column;
+    gap: 24px;
+    border-radius: 8px;
+    border: 1px solid var(--wine);
+    background: #F8F2FF;
+}
+
+#main .card .level-date,
+#main .card .icon-people {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#main .card .level-date .level {
+    padding: 3px 8px;
+    border-radius: 8px;
+    font-size: 10px;
+    font-weight: 500;
+}
+#main .card .level-date .level.high {
+    border: 1px solid var(--dark-red);
+    background-color: var(--red);
+    color: var(--dark-red);
+}
+#main .card .level-date .level.mid {
+    border: 1px solid var(--red);
+    background-color: #EB9961;
+    color: var(--red);
+}
+#main .card .level-date .level.low {
+    border: 1px solid #EB9961;
+    background-color: var(--yellow);
+    color: #EB9961;
+}
+
+#main .card .level-date .date {
+    color: rgba(0, 0, 0, 0.50);
+    font-size: 10px;
+    font-weight: 500;
+}
+
+#main .card .name {
+    font-size: 12px;
+    font-weight: 800;
+}
+
+
+#main .card .icon-people .list-people {
+    display: flex;
+    gap: 2px;
+}
+
+#main .card .icon-people .list-people .account {
+    width: 25px;
+    height: 25px;
+}
