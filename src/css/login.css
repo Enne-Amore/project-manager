@@ -3,7 +3,7 @@
     justify-content: center;
     align-items: center;
     gap: 160px;
-    height: calc(100vh - 220px);
+    height: calc(100vh - 306px);
 }
 
 #main .texts .title {
