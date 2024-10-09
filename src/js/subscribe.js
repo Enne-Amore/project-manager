@@ -1,5 +1,5 @@
 // Registered users
-const users = []
+let users = []
 
 const btn = document.querySelector('#btn-subscribe')
 btn.addEventListener('click', (page) => {
@@ -10,28 +10,35 @@ btn.addEventListener('click', (page) => {
     // Error checking
     if (email == '' || name == '') {
         page.preventDefault()
-        alert('Enter your email and name!')
+        alert('Enter your email and name! ❌')
 
     } else if (!/^\w+@+\w+\.\w+/.test(email)) {
         page.preventDefault()
-        alert('Enter a valid email! ')
+        alert('Enter a valid email! ❌')
         
     } else if (!/^[a-zA-Z0-9-_]/.test(name)) {
         page.preventDefault()
-        alert('Enter a valid name! ')
-    }
+        alert('Enter a valid name! ❌')
 
-    // Adding registration to the list
-    const user = {
-        email, name
+    } else { // Sucess registration
+        // Adding registration to the list
+        let user = {
+            email, name
+        }
+        users.push(user)
+    
+        // Save in Local Storage
+        let usersJSON = JSON.stringify(users)
+        localStorage.setItem('saveData', usersJSON)
+        
+        // Sucess message
+        alert('Registration completed successfully ✅')
     }
-    users.push(user)
-
-    // Save in Local Storage
-    const usersJSON = JSON.stringify(users)
-    localStorage.setItem('saveData', usersJSON)
 })
 
 // Recovery of save data
-const recoveryData = localStorage.getItem('saveData')
-localStorage.setItem('saveData', recoveryData)
+let recoveryData = localStorage.getItem('saveData')
+let userData = JSON.parse(recoveryData)
+if (recoveryData) {
+    users = userData
+}
