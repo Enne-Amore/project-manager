@@ -43,7 +43,7 @@
     justify-content: center;
     gap: 60px;
     background: rgba(0, 0, 0, 0.10);
-    padding: 60px 170px 280px;
+    padding: 60px 170px;
 }
 
 #main .table {
