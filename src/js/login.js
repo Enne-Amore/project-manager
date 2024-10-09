@@ -7,10 +7,13 @@ btn.addEventListener('click', (page) => {
     // Error checking
     if (email == '' || password == '') {
         page.preventDefault()
-        alert('Enter your email and password!')
+        alert('Enter your email and password! ❌')
 
     } else if (!/^\w+@+\w+\.\w+/.test(email)) {
         page.preventDefault()
-        alert('Enter a valid email! ')
+        alert('Enter a valid email! ❌')
+
+    } else { // Sucess login
+        alert('Login successfully ✅')
     }
 })
