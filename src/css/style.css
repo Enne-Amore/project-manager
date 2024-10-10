@@ -103,3 +103,41 @@
 #footer .terms span {
     font-size: 20px;
 }
+
+/* Responsive mobile */
+@media screen and (max-width: 1200px) {
+    /* Header */
+    #header .logo {
+        gap: 10px;
+    }
+
+    #header .logo .title {
+        font-size: 24px;
+    }
+
+    #header .btn {
+        padding: 16px 40px;
+        font-size: 12px;
+    }
+
+    /* Footer */
+    #footer {
+        flex-direction: column;
+        padding: 90px 30px;
+    }
+
+    #footer .socials .logo figure {
+        width: 20px;
+    }
+    
+    #footer .terms {
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+
+    #footer .terms span {
+        font-size: 16px;
+        text-align: center;
+    }
+}
