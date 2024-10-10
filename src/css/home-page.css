@@ -1,3 +1,4 @@
+/* Welcome */
 #main #welcome {
     display: flex;
     justify-content: center;
@@ -30,6 +31,7 @@
     text-align: center;
     font-size: 16px;
     font-weight: 400;
+    line-height: 24px;
     width: 500px;
 }
 
@@ -50,6 +52,7 @@
     color: var(--dark-red);
 }
 
+/* About */
 #main #about {
     display: flex;
     flex-direction: column;
@@ -77,6 +80,7 @@
     color: var(--weak-black);
     font-size: 16px;
     font-weight: 400;
+    line-height: 24px;
 }
 
 #main #about .texts .btn,
@@ -106,7 +110,6 @@
     gap: 40px;
 }
 
-
 #main #about .list-img .img {
     width: 340px;
 }
@@ -115,6 +118,7 @@
     border-radius: 8px;
 }
 
+/* Tools */
 #main #tools {
     display: flex;
     flex-direction: column;
@@ -132,10 +136,18 @@
 }
 
 #main #tools .texts .title {
-    color: #331436;
+    color: var(--wine);
     text-align: center;
     font-size: 40px;
     font-weight: 700;
+}
+
+#main #tools .texts .subtitle {
+    color: var(--wine);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
 }
 
 #main #tools .list-tools {
@@ -175,6 +187,7 @@
     font-weight: 400;
 }
 
+/* Subscribe */
 #main #subscribe {
     display: flex;
     justify-content: center;
@@ -241,4 +254,141 @@
 }
 #main #subscribe .form .btn:active {
     background-color: var(--dark-red);
+}
+
+/* Responsive mobile */
+@media screen and (max-width: 1200px) {
+    /* Welcome */
+    #main #welcome {
+        flex-direction: column;
+        gap: 50px;
+        padding: 30px 30px;
+    }
+
+    #main #welcome .texts {
+        gap: 20px;
+    }
+
+    #main #welcome .texts .title {
+        font-size: 36px;
+    }
+
+    #main #welcome .texts .paragraph {
+        font-size: 12px;
+        line-height: 20px;
+        width: fit-content;
+    }
+
+    #main #welcome .texts .btn,
+    #main #tools .texts .btn {
+        padding: 16px 60px;
+        font-size: 12px;
+    }
+
+    /* About */
+    #main #about {
+        align-items: center;
+        width: fit-content;
+        gap: 50px;
+        padding: 60px 30px;
+    }
+
+    #main #about .texts {
+        gap: 20px;
+        width: fit-content;
+    }
+    
+    #main #about .texts .title {
+        font-size: 36px;
+    }
+
+    #main #about .texts .paragraph {
+        font-size: 12px;
+        line-height: 20px;
+    }
+
+    #main #about .list-img {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+    }
+    
+    #main #about .list-img .img {
+        width: 140px;
+    }
+
+    /* Tools */
+    #main #tools {
+        gap: 50px;
+        padding: 60px 30px;
+    }
+
+    #main #tools .texts .title {
+        font-size: 36px;
+    }
+
+    #main #tools .texts .subtitle {
+        font-size: 12px;
+        line-height: 20px;
+    }
+
+    #main #tools .list-tools {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    #main #tools .list-tools .tool {
+        gap: 10px;
+        width: 140px;
+    }
+
+    #main #tools .list-tools .tool .icon {
+        padding: 20px;
+        width: 90px;
+    }
+
+    #main #tools .list-tools .tool .title {
+        font-size: 16px;
+    }
+    
+    #main #tools .list-tools .tool .subtitle {
+        font-size: 12px;
+    }
+
+    /* Subscribe */
+    #main #subscribe {
+        flex-direction: column;
+        gap: 60px;
+        padding: 80px 30px;
+    }
+
+    #main #subscribe .texts .title {
+        font-size: 36px;
+        margin-bottom: 24px;
+    }
+    
+    #main #subscribe .texts .subtitle {
+        font-size: 12px;
+    }
+
+    #main #subscribe .form {
+        width: 100%;
+        padding: 0 30px;
+    }
+
+    #main #subscribe .form .input label {
+        font-size: 12px;
+    }
+    
+    #main #subscribe .form .input input {
+        font-size: 12px;
+        width: 100%;
+    }
+
+    #main #subscribe .form .btn {
+        font-size: 12px;
+        width: 180px;
+        margin: auto;
+    }
 }
