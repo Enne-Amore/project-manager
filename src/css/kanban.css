@@ -15,6 +15,9 @@
 #header .nav .list-menu a:focus-visible {
     color: var(--yellow);
 }
+#header .nav .list-menu a:active {
+    color: #EB9961;
+}
 
 #header .nav .search {
     position: relative;
@@ -55,6 +58,12 @@
     gap: 10px;
     background-color: white;
     border-radius: 8px;
+}
+
+#main .table .title {
+    color: var(--wine);
+    font-size: 24px;
+    font-weight: 500;
 }
 
 #main .card {
@@ -117,4 +126,47 @@
 #main .card .icon-people .list-people .account {
     width: 25px;
     height: 25px;
+}
+
+/* Responsive mobile */
+@media screen and (max-width: 1200px) {
+    /* Header */
+    #header {
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+
+    #header .nav {
+        justify-content: center;
+    }
+
+    #header .nav,
+    #header .nav .list-menu {
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    #header .nav .list-menu a {
+        font-size: 12px;
+    }
+
+    #header .nav .search input {
+        font-size: 12px;
+    }
+
+    /* Main */
+    #main {
+        justify-content: flex-start;
+        gap: 30px;
+        padding: 60px 30px;
+        overflow-x: scroll;
+    }
+
+    #main .table {
+        min-height: 60vh;
+    }
+
+    #main .table .title {
+        font-size: 20px;
+    }   
 }
