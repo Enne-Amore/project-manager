@@ -59,3 +59,43 @@
 #main .form .btn:active {
     background-color: var(--dark-red);
 }
+
+/* Responsive mobile */
+@media screen and (max-width: 1200px) {
+    #main {
+        flex-direction: column;
+        gap: 60px;
+        padding: 0 30px 20px;
+        height: calc(100vh - 346px);
+    }
+
+    #main .texts .title {
+        font-size: 36px;
+        margin-bottom: 20px;
+    }
+    
+    #main .texts .subtitle {
+        font-size: 12px;
+        text-align: center;
+    }
+
+    #main .form {
+        width: 100%;
+        padding: 0 30px;
+    }
+
+    #main .form .input label {
+        font-size: 12px;
+    }
+    
+    #main .form .input input {
+        font-size: 12px;
+        width: 100%;
+    }
+
+    #main .form .btn {
+        font-size: 12px;
+        width: 180px;
+        margin: auto;
+    }
+}
