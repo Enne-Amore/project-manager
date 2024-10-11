@@ -16,7 +16,7 @@
     color: var(--yellow);
 }
 #header .nav .list-menu a:active {
-    color: #EB9961;
+    color: var(--orange);
 }
 
 #header .nav .search {
@@ -97,13 +97,13 @@
 }
 #main .card .level-date .level.mid {
     border: 1px solid var(--red);
-    background-color: #EB9961;
+    background-color: var(--orange);
     color: var(--red);
 }
 #main .card .level-date .level.low {
-    border: 1px solid #EB9961;
+    border: 1px solid var(--orange);
     background-color: var(--yellow);
-    color: #EB9961;
+    color: var(--orange);
 }
 
 #main .card .level-date .date {

@@ -5,6 +5,7 @@
     --red: #CC4F57;
     --dark-red: #7A1745;
     --yellow: #FCF5B5;
+    --orange: #EB9961;
 }
 
 /* Animations */
@@ -89,6 +90,9 @@
 #footer .socials .logo:hover,
 #footer .socials .logo:focus-visible {
     background-color: var(--yellow);
+}
+#footer .socials .logo:active {
+    background-color: var(--orange);
 }
 
 #footer .socials .logo figure {
