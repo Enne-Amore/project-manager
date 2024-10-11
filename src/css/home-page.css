@@ -41,7 +41,7 @@
     padding: 16px 100px;
     border-radius: 8px;
     font-size: 16px;
-    font-weight: 500;
+    font-weight: 600;
 }
 #main #welcome .texts .btn:hover,
 #main #welcome .texts .btn:focus-visible {
@@ -90,7 +90,7 @@
     padding: 16px;
     border-radius: 8px;
     font-size: 16px;
-    font-weight: 500;
+    font-weight: 600;
     text-align: center;
     width: 240px;
 }
@@ -105,17 +105,37 @@
     background-color: var(--dark-red);
 }
 
-#main #about .list-img {
+#main #about .list-cards {
     display: flex;
     gap: 40px;
 }
 
-#main #about .list-img .img {
+#main #about .list-cards .card {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#main #about .list-cards .card .img {
     width: 340px;
 }
 
-#main #about .list-img .img img {
+#main #about .list-cards .card .img img {
     border-radius: 8px;
+}
+
+#main #about .list-cards .card .title {
+    color: var(--wine);
+    font-size: 16px;
+    font-weight: 400;
+    padding: 6px 12px 0;
+}
+
+#main #about .list-cards .card .subtitle {
+    color: var(--wine);
+    font-size: 20px;
+    font-weight: 600;
+    padding: 0 12px;
 }
 
 /* Tools */
@@ -220,7 +240,7 @@
 
 #main #subscribe .form .input label {
     font-size: 14px;
-    font-weight: 500;
+    font-weight: 600;
 }
 
 #main #subscribe .form .input input {
@@ -245,7 +265,7 @@
     padding: 16px;
     border-radius: 8px;
     font-size: 16px;
-    font-weight: 500;
+    font-weight: 600;
     width: 240px;
 }
 #main #subscribe .form .btn:hover,
@@ -307,14 +327,24 @@
         line-height: 20px;
     }
 
-    #main #about .list-img {
+    #main #about .list-cards {
         flex-wrap: wrap;
         justify-content: center;
-        gap: 20px;
+        gap: 25px;
     }
     
-    #main #about .list-img .img {
+    #main #about .list-cards .card .img {
         width: 140px;
+    }
+
+    #main #about .list-cards .card .title {
+        font-size: 12px;
+        padding: 2px 6px 0;
+    }
+    
+    #main #about .list-cards .card .subtitle {
+        font-size: 16px;
+        padding: 0 6px;
     }
 
     /* Tools */
