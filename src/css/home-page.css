@@ -365,15 +365,18 @@
 
     #main #subscribe .texts .title {
         font-size: 36px;
+        text-align: center;
         margin-bottom: 20px;
     }
     
     #main #subscribe .texts .subtitle {
         font-size: 12px;
+        text-align: center;
     }
 
     #main #subscribe .form {
         width: 100%;
+        max-width: 350px;
         padding: 0 30px;
     }
 
