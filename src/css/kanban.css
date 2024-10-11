@@ -51,11 +51,11 @@
 
 #main .table {
     display: flex;
+    flex-direction: column;
+    gap: 10px;
     width: 240px;
     min-height: 70vh;
     padding: 16px;
-    flex-direction: column;
-    gap: 10px;
     background-color: white;
     border-radius: 8px;
 }
@@ -66,7 +66,13 @@
     font-weight: 600;
 }
 
-#main .card {
+#main .table .list-cards {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#main .table .list-cards .card {
     display: flex;
     width: 200px;
     padding: 14px 10px;
@@ -77,53 +83,53 @@
     background: #F8F2FF;
 }
 
-#main .card .level-date,
-#main .card .icon-people {
+#main .table .list-cards .card .level-date,
+#main .table .list-cards .card .icon-people {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-#main .card .level-date .level {
+#main .table .list-cards .card .level-date .level {
     padding: 3px 8px;
     border-radius: 8px;
     font-size: 10px;
     font-weight: 600;
 }
-#main .card .level-date .level.high {
+#main .table .list-cards .card .level-date .level.high {
     border: 1px solid var(--dark-red);
     background-color: var(--red);
     color: var(--dark-red);
 }
-#main .card .level-date .level.mid {
+#main .table .list-cards .card .level-date .level.mid {
     border: 1px solid var(--red);
     background-color: var(--orange);
     color: var(--red);
 }
-#main .card .level-date .level.low {
+#main .table .list-cards .card .level-date .level.low {
     border: 1px solid var(--orange);
     background-color: var(--yellow);
     color: var(--orange);
 }
 
-#main .card .level-date .date {
+#main .table .list-cards .card .level-date .date {
     color: rgba(0, 0, 0, 0.50);
     font-size: 10px;
     font-weight: 600;
 }
 
-#main .card .name {
+#main .table .list-cards .card .name {
     font-size: 12px;
     font-weight: 800;
 }
 
 
-#main .card .icon-people .list-people {
+#main .table .list-cards .card .icon-people .list-people {
     display: flex;
     gap: 2px;
 }
 
-#main .card .icon-people .list-people .account {
+#main .table .list-cards .card .icon-people .list-people .account {
     width: 25px;
     height: 25px;
 }
