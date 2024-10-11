@@ -138,6 +138,7 @@
 
     #header .nav {
         justify-content: center;
+        margin: auto;
     }
 
     #header .nav,
