@@ -22,9 +22,7 @@ btn.addEventListener('click', (page) => {
 
     } else { // Sucess registration
         // Adding registration to the list
-        let user = {
-            email, name
-        }
+        let user = { email, name }
         users.push(user)
     
         // Save in Local Storage
