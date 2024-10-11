@@ -18,6 +18,7 @@
 | Red            | ![#CC4F57](https://via.placeholder.com/10/CC4F57?text=+) #CC4F57 |
 | Dark Red       | ![#7A1745](https://via.placeholder.com/10/7A1745?text=+) #7A1745 |
 | Yellow         | ![#FCF5B5](https://via.placeholder.com/10/FCF5B5?text=+) #FCF5B5 |
+| Orange         | ![#EB9961](https://via.placeholder.com/10/EB9961?text=+) #EB9961 |
 
 
 ## 🌟 Reference

@@ -60,7 +60,7 @@
     margin: auto;
     width: max-content;
     gap: 60px;
-    padding: 60px 170px;
+    padding: 60px 170px 120px;
 }
 
 #main #about .texts {
@@ -125,7 +125,7 @@
     align-items: center;
     gap: 60px;
     background-color: rgba(252, 244, 182, 0.50);
-    padding: 60px 170px;
+    padding: 60px 170px 80px;
 }
 
 #main #tools .texts {
@@ -152,7 +152,7 @@
 
 #main #tools .list-tools {
     display: flex;
-    gap: 40px;
+    gap: 60px;
 }
 
 #main #tools .list-tools .tool {
@@ -365,15 +365,18 @@
 
     #main #subscribe .texts .title {
         font-size: 36px;
+        text-align: center;
         margin-bottom: 20px;
     }
     
     #main #subscribe .texts .subtitle {
         font-size: 12px;
+        text-align: center;
     }
 
     #main #subscribe .form {
         width: 100%;
+        max-width: 350px;
         padding: 0 30px;
     }
 
