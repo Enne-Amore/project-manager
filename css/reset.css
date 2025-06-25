@@ -10,7 +10,7 @@ body {
     height: auto;
     min-height: 100vh;
     color: var(--wine);
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto", sans-serif;
     animation: loadPage .5s ease-out;
 }
 

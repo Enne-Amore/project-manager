@@ -2,23 +2,81 @@
  A platform that aims to manage projects
 
 
+## 🌐 Hosted Application Demo
+
+ [Click here to access the website](https://enne-amore.github.io/project-manager/)
+
+
 ## 🚀 Technologies used
 
- - HTML
- - CSS
- - JavaScript
+ <p align="left">
+   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" title="HTML" alt="HTML" width="40" height="40"/>
+   <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Official_CSS_Logo.svg/2048px-Official_CSS_Logo.svg.png" title="CSS" alt="CSS" width="40" height="40"/>
+   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" title="JavaScript" alt="JavaScript" width="40" height="40"/>
+ </p>
+
+
+## 📂 Project Structure
+
+ ```plaintext
+ project-manager/
+ ├── css/                    # Arquivos CSS
+ │   ├── home-page.css 
+ │   ├── kanban.css 
+ │   ├── login.css  
+ │   ├── reset.css       
+ │   ├── style.css
+ ├── img/                    # Imagens utilizadas 
+ ├── js/                     # Arquivos JavaScript 
+ │   ├── login.js 
+ │   ├── subscribe.js 
+ ├── view/                   # Arquivos de páginas secundárias 
+ │   ├── kanban.html 
+ │   ├── login.html 
+ ├── index.html              # Arquivo principal de renderização
+ ├── LICENSE                 # Arquivo de licença do projeto
+ ├── README.md
+ ```
+
+
+## 🛠️ Local Installation
+
+ 1. **Clone the repository:**
+ 
+ In the terminal, run the following command to clone the repository:
+ 
+ ```bash
+ git clone https://github.com/Enne-Amore/project-manager.git
+ ```
+ 
+ 2. **Enter the "index.html" file**
+ 
+ 3. **Run the main render file:**
+ 
+ Right-click and select the following option:
+ 
+ ```bash
+ Open with Live Server
+ ```
 
 
 ## 🌈 Colors
 
-| Color          | Hexadecimal                                                      |
-| -------------- | ---------------------------------------------------------------- |
-| Weak Black     | ![#030000](https://via.placeholder.com/10/030000?text=+) #030000 |
-| Wine           | ![#331436](https://via.placeholder.com/10/331436?text=+) #331436 |
-| Red            | ![#CC4F57](https://via.placeholder.com/10/CC4F57?text=+) #CC4F57 |
-| Dark Red       | ![#7A1745](https://via.placeholder.com/10/7A1745?text=+) #7A1745 |
-| Yellow         | ![#FCF5B5](https://via.placeholder.com/10/FCF5B5?text=+) #FCF5B5 |
-| Orange         | ![#EB9961](https://via.placeholder.com/10/EB9961?text=+) #EB9961 |
+ | Color      | Hexadecimal |
+ | ---------- | ----------- |
+ | Weak Black | `#030000`   |
+ | Wine       | `#331436`   |
+ | Red        | `#CC4F57`   |
+ | Dark Red   | `#7A1745`   |
+ | Yellow     | `#FCF5B5`   |
+ | Orange     | `#EB9961`   |
+
+
+## 🔤 Typography Sources
+ 
+ - **Roboto**  
+   Usage example:  
+   `font-family: "Roboto";`
 
 
 ## 🌟 Reference
@@ -27,5 +85,6 @@
 
 
 ## 🔧 Suport
+
  To contact me for support, my email is [Enne.Pessoa@gmail.com](mailto:Enne.Pessoa@gmail.com)
 
