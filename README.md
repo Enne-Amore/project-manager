@@ -16,6 +16,29 @@
  </p>
 
 
+## 📂 Project Structure
+
+ ```plaintext
+ project-manager/
+ ├── css/                    # Arquivos CSS
+ │   ├── home-page.css 
+ │   ├── kanban.css 
+ │   ├── login.css  
+ │   ├── reset.css       
+ │   ├── style.css
+ ├── img/                    # Imagens utilizadas 
+ ├── js/                     # Arquivos JavaScript 
+ │   ├── login.js 
+ │   ├── subscribe.js 
+ ├── view/                   # Arquivos de páginas secundárias 
+ │   ├── kanban.html 
+ │   ├── login.html 
+ ├── index.html              # Arquivo principal de renderização
+ ├── LICENSE                 # Arquivo de licença do projeto
+ ├── README.md
+ ```
+
+
 ## 🌈 Colors
 
  | Color      | Hexadecimal |
