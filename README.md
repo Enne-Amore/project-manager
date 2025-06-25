@@ -11,14 +11,14 @@
 
 ## 🌈 Colors
 
-| Color      | Hexadecimal |
-| ---------- | ----------- |
-| Weak Black | `#030000`   |
-| Wine       | `#331436`   |
-| Red        | `#CC4F57`   |
-| Dark Red   | `#7A1745`   |
-| Yellow     | `#FCF5B5`   |
-| Orange     | `#EB9961`   |
+ | Color      | Hexadecimal |
+ | ---------- | ----------- |
+ | Weak Black | `#030000`   |
+ | Wine       | `#331436`   |
+ | Red        | `#CC4F57`   |
+ | Dark Red   | `#7A1745`   |
+ | Yellow     | `#FCF5B5`   |
+ | Orange     | `#EB9961`   |
 
 
 ## 🌟 Reference
