@@ -2,6 +2,11 @@
  A platform that aims to manage projects
 
 
+## 🌐 Hosted Application Demo
+
+ [Click here to access the website](https://enne-amore.github.io/project-manager/)
+
+
 ## 🚀 Technologies used
 
  - HTML
