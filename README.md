@@ -72,11 +72,19 @@
  | Orange     | `#EB9961`   |
 
 
+## 🔤 Typography Sources
+ 
+ - **Roboto**  
+   Usage example:  
+   `font-family: "Roboto";`
+
+
 ## 🌟 Reference
 
  - [Screen prototypes](https://www.figma.com/design/gut0f54yTpBwIh1kla9j8y/Challenge-1-SC-(Copy)?node-id=0-1&t=tllTERKyeQqwSnoN-1)
 
 
 ## 🔧 Suport
+
  To contact me for support, my email is [Enne.Pessoa@gmail.com](mailto:Enne.Pessoa@gmail.com)
 
