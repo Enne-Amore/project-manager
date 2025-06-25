@@ -39,6 +39,27 @@
  ```
 
 
+## 🛠️ Local Installation
+
+ 1. **Clone the repository:**
+ 
+ In the terminal, run the following command to clone the repository:
+ 
+ ```bash
+ git clone https://github.com/Enne-Amore/project-manager.git
+ ```
+ 
+ 2. **Enter the "index.html" file**
+ 
+ 3. **Run the main render file:**
+ 
+ Right-click and select the following option:
+ 
+ ```bash
+ Open with Live Server
+ ```
+
+
 ## 🌈 Colors
 
  | Color      | Hexadecimal |
